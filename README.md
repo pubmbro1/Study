@@ -1,13 +1,4 @@
-# tech-interview-for-developer
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgyoogle%2Ftech-interview-for-developer.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgyoogle%2Ftech-interview-for-developer?ref=badge_shield)
 
-
-
-<br>
-
-#### 👨🏻‍🏫 [기술 면접 감 잡기](<https://github.com/gyoogle/tech-interview-for-developer/tree/master/Interview#%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EC%A4%80%EB%B9%84%ED%95%98%EA%B8%B0>) 👩🏻‍🏫
-
-------
 
 <br>
 

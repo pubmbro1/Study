@@ -40,6 +40,8 @@ str.length();
  
 
 문자열 다루기 / StringBuilder
+======================
+
 StringBuilder sb = new StringBuilder();
 
 StringBuilder sb = new StringBuilder(String str);
@@ -85,6 +87,8 @@ sb.toString();
  
 
 기본형 다루기 / Integer, Character
+======================
+
 char to int : Character.getNumericValue(char c);  // int i = c – ‘a’;
 
 char to String : Character.toString(char c); // String str = “”+c;
@@ -134,6 +138,8 @@ Math.abs(int i);
  
 
 배열 다루기
+======================
+
 Arrays.sort(T[] arrays)
 
 Arrays.sort(T[] arrays, Collections.reverseOrder());
@@ -159,12 +165,13 @@ Arrays.fill(T[] arr, Object o);
  
 
 Arrays.binarySearch(T[] arr, Object key)  // 정렬 후 사용, 값 중복 시 인덱시 랜덤
-
+ 
  
 
+ 다루기
+======================
  
-
-리스트 다루기
+ 
 T[] arrays = list.toArray(new T[size]);  //minimum size는 list.size()
 
  
@@ -375,6 +382,7 @@ map.replaec(K key, V value);
 
 특이사항
 BigInteger
+ =================
 
 BigInteger bi = new BigInteger("2");
 

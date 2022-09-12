@@ -168,7 +168,7 @@ Arrays.binarySearch(T[] arr, Object key)  // 정렬 후 사용, 값 중복 시 �
  
  
 
- 다루기
+ 리스트 다루기
 ======================
  
  
@@ -198,7 +198,7 @@ Map -> HashMap
 
  
 
-1. List
+# 1. List
 
  
 
@@ -230,7 +230,7 @@ list.remove(Object o);
 
  
 
-1-1 ArrayList
+## 1-1 ArrayList
 
  
 
@@ -246,7 +246,7 @@ arraylist.trimToSize();  // 사용하지 않는 부분 자르기
 
  
 
-1-2 LinkedList
+## 1-2 LinkedList
 
  
 
@@ -270,7 +270,7 @@ poll() / pollFirst() / pollLast()     // 제거하고 반환
 
  
 
-1-3 stack
+## 1-3 stack
 
  
 
@@ -284,7 +284,7 @@ peek()
 
  
 
-1-4 Queue
+## 1-4 Queue
 
  
 
@@ -300,7 +300,7 @@ poll()
 
  
 
-1-5 PriorityQueue
+## 1-5 PriorityQueue
 
  
 
@@ -320,7 +320,7 @@ poll()
 
  
 
-2. Set / HashSet
+# 2. Set / HashSet
 
  
 
@@ -340,7 +340,7 @@ remove(Object o);
 
  
 
-3. Map / HashMap
+# 3. Map / HashMap
 
  
 

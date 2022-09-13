@@ -17,6 +17,10 @@ String str = String.valueOf(arr);
 
 ## String[] <-> List
 List<String> list = Arrays.asList(arr);
+        
+## Integer <-> int
+int b[] = Arrays.stream(a).mapToInt(Integer::intValue).toArray(); 
+Integer b[] = Arrays.stream(a).boxed().toArray(Integer[]::new); 
 
 
 

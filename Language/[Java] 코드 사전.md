@@ -1,3 +1,9 @@
+형변환
+======
+# String[] to int[] 
+int[] nums = Arrays.stream(strings).mapToInt(Integer::parseInt).toArray();
+
+
 # HashMap Value 값으로 정렬
 
         List<Integer> list = new ArrayList<>(hm.keySet());

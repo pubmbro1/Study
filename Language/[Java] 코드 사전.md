@@ -4,27 +4,27 @@
 https://coding-factory.tistory.com/130
 
 ## String[] <-> int[] 
-int[] nums = Arrays.stream(strings).mapToInt(Integer::parseInt).toArray();
+        int[] nums = Arrays.stream(strings).mapToInt(Integer::parseInt).toArray();
 
-String[] strArray = Arrays.stream(intArray).mapToObj(String::valueOf).toArray(String[]::new);
+        String[] strArray = Arrays.stream(intArray).mapToObj(String::valueOf).toArray(String[]::new);
 
 ## String <-> int[]
-String str = Arrays.toString(arr);
+        String str = Arrays.toString(arr);
 
-int[] digits = Stream.of(str.split("")).mapToInt(Integer::parseInt).toArray();
+        int[] digits = Stream.of(str.split("")).mapToInt(Integer::parseInt).toArray();
 
 ## String <-> char[]
-char[] chs = str.toCharArray();
+        char[] chs = str.toCharArray();
 
-String str = String.valueOf(arr);
+        String str = String.valueOf(arr);
 
 ## String[] <-> List
-List<String> list = Arrays.asList(arr);
+        List<String> list = Arrays.asList(arr);
         
 ## Integer <-> int
-int b[] = Arrays.stream(a).mapToInt(Integer::intValue).toArray(); 
-        
-Integer b[] = Arrays.stream(a).boxed().toArray(Integer[]::new); 
+        int b[] = Arrays.stream(a).mapToInt(Integer::intValue).toArray(); 
+
+        Integer b[] = Arrays.stream(a).boxed().toArray(Integer[]::new); 
 
 
 

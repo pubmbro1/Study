@@ -27,7 +27,7 @@ https://coding-factory.tistory.com/130
         Integer b[] = Arrays.stream(a).boxed().toArray(Integer[]::new); 
         
 ## Long to int 
-        l.intValue(i);
+        int l = Long.valueOf(left).intValue();
 
 
 

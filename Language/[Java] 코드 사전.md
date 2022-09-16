@@ -44,3 +44,8 @@ https://coding-factory.tistory.com/130
         
         a = new StringBuilder(a).reverse().toString();
         return Integer.parseInt(a,n);
+        
+## 행렬 row col 구하기
+        3x3 행렬을 1,2,3,4,5,6,7,8,9 라고 나타낼 때,
+        5에 해당하는 row와 col의 값은 5의 index(=4)를 n(=3)으로 나눈 뒤 1을 더한다. 
+        4/3+1 , 4%3+1

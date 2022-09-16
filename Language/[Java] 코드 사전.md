@@ -26,6 +26,10 @@ https://coding-factory.tistory.com/130
 
         Integer b[] = Arrays.stream(a).boxed().toArray(Integer[]::new); 
         
+## char to int
+        digits[i] = str.charAt(i) - '0';
+        (int) c
+        
 ## Long to int 
         int l = Long.valueOf(left).intValue();
 

@@ -29,8 +29,13 @@ https://coding-factory.tistory.com/130
 ## Long to int 
         int l = Long.valueOf(left).intValue();
 
-
-
+## int[] 의 역순 정렬
+        Arrays.sort(arr);
+        for(int i=0;i<len/2;i++){
+                int temp = arr[i];
+                arr[i] = arr[len-1-i];
+                arr[len-1-i] = temp;
+        }
 
 
 ## HashMap Value 값으로 정렬

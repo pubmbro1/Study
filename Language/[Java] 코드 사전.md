@@ -25,6 +25,9 @@ https://coding-factory.tistory.com/130
         int b[] = Arrays.stream(a).mapToInt(Integer::intValue).toArray(); 
 
         Integer b[] = Arrays.stream(a).boxed().toArray(Integer[]::new); 
+        
+## Long to int 
+        l.intValue(i);
 
 
 
